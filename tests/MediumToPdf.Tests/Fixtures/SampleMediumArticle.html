@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Understanding Async/Await in C# - Medium</title>
+    <meta property="og:title" content="Understanding Async/Await in C#" />
+    <meta name="author" content="Jane Developer" />
+    <meta property="article:published_time" content="2026-01-15T10:30:00.000Z" />
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/explore">Explore</a>
+    </nav>
+    <article>
+        <h1>Understanding Async/Await in C#</h1>
+        <time datetime="2026-01-15T10:30:00.000Z">Jan 15, 2026</time>
+        <p>Asynchronous programming is essential for modern applications.</p>
+        <h2>The Basics</h2>
+        <p>Let's start with a simple example:</p>
+        <pre><code>async Task&lt;string&gt; FetchDataAsync()
+{
+    return await httpClient.GetStringAsync(url);
+}</code></pre>
+        <figure>
+            <img src="https://example.com/diagram.png" alt="Async flow diagram" />
+            <figcaption>Figure 1: Async execution flow</figcaption>
+        </figure>
+        <blockquote>Async all the way down is the golden rule.</blockquote>
+        <ul>
+            <li>Use async for I/O operations</li>
+            <li>Avoid async void</li>
+        </ul>
+        <p>Read more about <a href="https://docs.microsoft.com">async patterns</a>.</p>
+        <p><strong>Key takeaway:</strong> <em>Always</em> use cancellation tokens.</p>
+        <nav>
+            <button>Share</button>
+            <button>Clap</button>
+        </nav>
+        <footer>
+            <p>Written by Jane Developer</p>
+        </footer>
+    </article>
+    <footer>
+        <p>More from Medium</p>
+        <p>Recommended articles</p>
+    </footer>
+    <script>console.log("tracking");</script>
+    <style>.hidden { display: none; }</style>
+</body>
+</html>

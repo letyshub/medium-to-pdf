@@ -1,0 +1,21 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+*.nupkg
+nupkg/
+
+# IDE and editor files
+.vs/
+*.user
+*.suo
+*.DotSettings.user
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
